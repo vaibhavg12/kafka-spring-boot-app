@@ -1,0 +1,10 @@
+#port for REST endpoints
+server:
+  port: 9000
+
+#address for kafka
+kafka.bootstrapAddress: localhost:9092
+
+# topic names
+message.topic.name: bumblebee
+greet.topic.name: greet
